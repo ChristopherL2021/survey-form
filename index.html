@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="device-width, initial-scale=1.0 ">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+            <form action="" id="survey-form">
+                <fieldset>
+                    <label id="name-label" for="name">Name: <input type="text" id="name" required placeholder="Jack Reacher"></label>
+                    <label id="email-label" for="email">Email: <input type="email" id="email" required placeholder="ThisEmail@google.com"></label>
+                    <label id="number-label" for="number">Number: <input type="number" id="number" placeholder="20" min="16" max="120"></label>
+                </fieldset>
+                <fieldset>
+                    <select id="dropdown">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <label for="option-1"><input value="option-1" name="option-group" id="option-1" type="radio"> Option 1</label>
+                    <label for="option-2"><input value="option-2" name="option-group" id="option-2" type="radio"> Option 2</label>
+                </fieldset>
+                <fieldset>
+                    <label><input value="option-1" type="checkbox"> Option 1</label>
+                    <label><input value="option-2" type="checkbox"> Option 2</label>
+                    <label><input value="option-3" type="checkbox"> Option 3</label>
+                    <label><input value="option-4" type="checkbox"> Option 4</label>
+                    <label>Type some text: <textarea></textarea></label>
+                </fieldset>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </main>
+    </body>
+</html>
